@@ -1,0 +1,90 @@
+#center-side-top-bar {
+    border-top: 4px solid #22aaa1;
+    border-bottom: 4px solid#22aaa1;
+}
+
+.right-icon-text {
+    color: #22aaa1;
+}
+
+#middle-photo-slide {
+    height: 70vh;
+}
+
+.imageBlock-1 {
+    background: url(task02-mid-picture-1.jpg);
+}
+
+.imageBlock-2 {
+    background: url(task02-mid-picture-2.jpg);
+}
+
+.imageBlock-3 {
+    background: url(task02-mid-picture-3.jpg);
+}
+
+.image-adjustment {
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+
+#text-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-on-picture-header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.middle-part-buttons-large {
+    margin: 0px 15px;
+}
+
+.middle-part-buttons-small {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .middle-part-buttons-large {
+        display: none;
+    }
+
+    .middle-part-buttons-small {
+        margin: 2px;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #text-on-picture-header {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #text-on-picture-header {
+        font-size: 0.8em;
+    }
+}
+
+#text-on-picture {
+    text-align: justify;
+    width: 80%;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 300px) {
+    #text-on-picture {
+        font-size: 1em;
+    }
+}
